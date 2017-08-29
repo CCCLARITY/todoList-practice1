@@ -1,8 +1,12 @@
 body{
-	background: #ddd;
+	/*background: #ddd;*/
+	/*background: hsla(0, 0%, 0%, 0.40);*/
+	background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504011428985&di=f9bba4f75e4fa9f633dadb5dac8e5424&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F22%2F10%2F78J58PICqwN_1024.jpg');
 }
 #root{
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
+	/*width: 800px;*/
+	border: 1px solid;
 }

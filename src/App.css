@@ -2,16 +2,32 @@
   color: #333;
   border: 1px solid #aaa;
   border-radius: 4px;
-  background: white;
+  /*background: white;*/
+  background: rgba(255,255,255, 0.60);
   margin: 2em;
   padding: 0 1em;
   min-height: 20em;
-  min-width: 32em;
+  /*min-width: 32em;*/
+  width: 800px;
   box-shadow: 0 0 1em hsla(0,0%,0%,0.15);
+}
+.App h1{
+	color: #f16e51;
+	letter-spacing: 1px;
+}
+.App h1 button{
+	float: right;
+	font-size: 26px;
+	padding: 3px 5px;
 }
 .App > .todoList> li:nth-child(odd){
   background: #eee;
 }
 .App > .todoList> li:nth-child(even){
   background: transparent;
+}
+.clearfix::after{
+	display: block;
+	content: '';
+	clear: both;
 }
